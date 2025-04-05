@@ -18,7 +18,6 @@ def read_and_write_file(input_filename, output_filename):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-
 input_filename = 'answers.txt' 
 output_filename = 'modified_answers.txt'  
 read_and_write_file(input_filename, output_filename)
